@@ -1,0 +1,27 @@
+{
+  "name": "joi-mongodb-objectid",
+  "version": "0.0.1",
+  "description": "Joi extension to validate MongoDB ObjectId.",
+  "peerDependencies": {
+    "joi": ">= 13"
+  },
+  "dependencies": {
+    "bson": "^2.0.5"
+  },
+  "repository": "https://github.com/ratson/joi-extentions/tree/master/packages/joi-mongodb-objectid",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 8"
+  },
+  "files": [
+    "*.md",
+    "index.js"
+  ],
+  "keywords": [
+    "joi",
+    "extension",
+    "mongodb",
+    "objectid",
+    "bson"
+  ]
+}

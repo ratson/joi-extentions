@@ -1,23 +1,13 @@
-# joi-mongodb-objectid
+# joi-extentions
 
-Joi extension to validate MongoDB ObjectId.
+A set of Joi extensions.
 
-## Installation
+## Packages
 
-```
-npm install joi-mongodb-objectid --save
-```
+|        Project         |                     Status                      |        Description        |
+| ---------------------- | ----------------------------------------------- | ------------------------- |
+| [joi-mongodb-objectid] | [![joi-mongodb-objectid]][joi-mongodb-objectid] | Validate MongoDB ObjectId |
 
-## Usage
+[joi-mongodb-objectid]: hthttps://github.com/ratson/joi-extentions/tree/master/packages/joi-mongodb-objectid
 
-<!-- eslint-disable strict,node/no-missing-require,no-unused-vars -->
-
-```js
-const { ObjectId } = require('bson')
-const JoiBase = require('joi')
-const JoiObjectId = require('joi-mongodb-objectid')
-
-const Joi = JoiBase.extend(JoiObjectId)
-
-const result = Joi.objectId().validate(ObjectId())
-```
+[joi-mongodb-objectid]: https://npmjs.com/package/joi-mongodb-objectid

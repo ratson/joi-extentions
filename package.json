@@ -1,15 +1,10 @@
 {
-  "name": "joi-mongodb-objectid",
-  "version": "0.0.1",
-  "description": "Joi extension to validate MongoDB ObjectId.",
+  "private": true,
   "scripts": {
     "lint": "eslint --ext js,md .",
     "test": "jest",
     "precommit": "lint-staged",
     "prepush": "jest"
-  },
-  "dependencies": {
-    "bson": "^2.0.5"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
@@ -18,12 +13,11 @@
     "husky": "^0.14.3",
     "jest": "^22.4.3",
     "joi": "^13.1.2",
+    "lerna": "^2.9.1",
     "lint-staged": "^7.0.4",
     "npm-run-all": "^4.1.2",
     "prettier-eslint-cli": "^4.7.1"
   },
-  "repository": "ratson/joi-mongodb-objectid",
-  "license": "MIT",
   "engines": {
     "node": ">=8"
   },
@@ -44,5 +38,8 @@
       "eslint --fix",
       "git add"
     ]
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
