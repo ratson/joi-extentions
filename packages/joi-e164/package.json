@@ -1,0 +1,25 @@
+{
+  "name": "joi-e164",
+  "version": "0.0.0",
+  "description": "Joi extension to validate E.164 numbering format.",
+  "peerDependencies": {
+    "joi": ">= 13"
+  },
+  "repository": "https://github.com/ratson/joi-extentions/tree/master/packages/joi-e164",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 8"
+  },
+  "files": [
+    "*.md",
+    "index.js"
+  ],
+  "keywords": [
+    "joi",
+    "extension",
+    "e164",
+    "phone",
+    "number",
+    "format"
+  ]
+}
