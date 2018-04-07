@@ -1,6 +1,6 @@
 {
   "name": "joi-e164",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Joi extension to validate E.164 numbering format.",
   "peerDependencies": {
     "joi": ">= 13"
