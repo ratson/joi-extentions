@@ -2,16 +2,14 @@
   "private": true,
   "scripts": {
     "lint": "eslint --ext js,md .",
-    "test": "jest",
-    "precommit": "lint-staged",
-    "prepush": "jest"
+    "test": "jest"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-concise": "^0.22.0",
     "eslint-config-concise-jest": "^0.20.0",
     "faker": "^4.1.0",
-    "husky": "^0.14.3",
+    "husky": "^1.1.2",
     "jest": "^22.4.3",
     "joi": "^13.1.2",
     "lerna": "^2.9.1",
@@ -42,5 +40,11 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "jest"
+    }
+  }
 }
