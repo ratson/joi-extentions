@@ -6,7 +6,7 @@
     "joi": ">= 13"
   },
   "dependencies": {
-    "bson": "^2.0.5"
+    "bson": "^3.0.2"
   },
   "repository": "https://github.com/ratson/joi-extentions/tree/master/packages/joi-mongodb-objectid",
   "license": "MIT",
