@@ -1,6 +1,6 @@
 {
   "name": "joi-mongodb-objectid",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Joi extension to validate MongoDB ObjectId.",
   "peerDependencies": {
     "joi": ">= 13"
