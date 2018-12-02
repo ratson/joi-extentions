@@ -8,7 +8,7 @@ const JoiObjectId = require('.')
 const Joi = JoiBase.extend(JoiObjectId)
 
 describe('Joi.extend(JoiObjectId)', () => {
-  const validId = ObjectId()
+  const validId = ObjectId.createPk()
   const invalidId = 'invalid-id'
 
   it('return valid ObjectId', () => {

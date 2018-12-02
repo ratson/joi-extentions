@@ -13,7 +13,7 @@ module.exports = {
     }
 
     if (options.convert) {
-      return ObjectId(value)
+      return new ObjectId(value)
     }
 
     return value
